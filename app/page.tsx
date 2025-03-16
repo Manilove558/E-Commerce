@@ -2,7 +2,7 @@ import { SiteHeader } from "@/components/site-header"
 import { ProductCard } from "@/components/product-card"
 import { getTopSellers, getSaleProducts } from "@/lib/products"
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { ShirtIcon, DiamondIcon as DressIcon, BabyIcon, PackageIcon, ClubIcon as HoodieIcon } from "lucide-react"
+import { ShirtIcon, DiamondIcon as DressIcon, BabyIcon, PackageIcon, ClubIcon as HoodieIcon} from "lucide-react"
 import Link from "next/link"
 
 const categories = [
@@ -34,7 +34,14 @@ const categories = [
     name: "Hoodies",
     href: "/category/hoodies",
     icon: HoodieIcon,
+    
     description: "Comfortable and stylish hoodies",
+  },
+  {
+    name: "Accessories",
+    href: "/category/accessories",
+    icon: ShirtIcon,
+    description: "Explore our collection of men's fashion",
   },
 ]
 
