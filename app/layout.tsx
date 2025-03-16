@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "_5201314_ Shopping Store",
   description: "Your one-stop shop for all your needs",
-    generator: 'v0.dev'
+   
 }
 
 export default function RootLayout({
