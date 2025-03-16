@@ -68,7 +68,8 @@ export default function AdminDashboard() {
       <div className="flex items-center justify-between">
         <h2 className="text-3xl font-bold tracking-tight">Store Dashboard</h2>
         <div className="flex items-center gap-2">
-          <DateRangePicker dateRange={dateRange} onChange={setDateRange} />
+        <div suppressHydrationWarning>{dateRange?.from.toDateString()}</div>
+
           <Button>Export Report</Button>
         </div>
       </div>
